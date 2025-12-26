@@ -120,7 +120,10 @@ export default function Home() {
             </div>
             <button
               onClick={copyToClipboard}
-              className="px-3 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-md flex items-center justify-center gap-2 transition-colors text-sm shrink-0"
+              className="px-3 py-2 text-white rounded-md flex items-center justify-center gap-2 transition-colors text-sm shrink-0"
+              style={{ backgroundColor: '#2E54EA' }}
+              onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#1e3fba'}
+              onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#2E54EA'}
             >
               {copied ? <Check size={16} /> : <Copy size={16} />}
               {copied ? 'Copied!' : 'Copy'}
