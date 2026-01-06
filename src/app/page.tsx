@@ -44,7 +44,7 @@ export default function Home() {
               type="text"
               value={destinationUrl}
               disabled
-              className="px-3 py-2 bg-gray-800 border border-gray-700 rounded-md text-gray-400 text-sm sm:w-64 cursor-not-allowed overflow-hidden text-ellipsis"
+              className="h-[38px] px-3 py-2 bg-gray-800 border border-gray-700 rounded-md text-gray-400 text-sm sm:w-64 cursor-not-allowed overflow-hidden text-ellipsis"
             />
           </div>
 
@@ -59,7 +59,7 @@ export default function Home() {
               value={utmSource}
               onChange={(e) => setUtmSource(e.target.value)}
               placeholder="gh username"
-              className="px-3 py-2 bg-gray-800 border border-gray-600 rounded-md text-white text-sm sm:w-40 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500"
+              className="h-[38px] px-3 py-2 bg-gray-800 border border-gray-600 rounded-md text-white text-sm sm:w-40 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500"
             />
           </div>
 
@@ -72,7 +72,7 @@ export default function Home() {
             <select
               value={utmMedium}
               onChange={(e) => setUtmMedium(e.target.value)}
-              className="px-3 py-2 bg-gray-800 border border-gray-600 rounded-md text-white text-sm sm:w-40 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 cursor-pointer"
+              className="h-[38px] px-3 py-2 bg-gray-800 border border-gray-600 rounded-md text-white text-sm sm:w-40 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 cursor-pointer"
             >
               <option value="repository">repository</option>
               <option value="landing">landing</option>
@@ -89,7 +89,7 @@ export default function Home() {
               type="text"
               value={utmContent}
               disabled
-              className="px-3 py-2 bg-gray-800 border border-gray-700 rounded-md text-gray-400 text-sm sm:w-32 cursor-not-allowed overflow-hidden text-ellipsis"
+              className="h-[38px] px-3 py-2 bg-gray-800 border border-gray-700 rounded-md text-gray-400 text-sm sm:w-32 cursor-not-allowed overflow-hidden text-ellipsis"
             />
           </div>
 
@@ -103,7 +103,7 @@ export default function Home() {
               type="text"
               value={utmCampaign}
               disabled
-              className="px-3 py-2 bg-gray-800 border border-gray-700 rounded-md text-gray-400 text-sm sm:w-32 cursor-not-allowed overflow-hidden text-ellipsis"
+              className="h-[38px] px-3 py-2 bg-gray-800 border border-gray-700 rounded-md text-gray-400 text-sm sm:w-32 cursor-not-allowed overflow-hidden text-ellipsis"
             />
           </div>
         </div>
